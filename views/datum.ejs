@@ -1,0 +1,34 @@
+<%-include("partials/header")-%>
+<div class="country-title">
+  <p><%=data.Country%></p>
+</div>
+<div class="data">
+  <div class="data-item">
+    <p>Total Confirmed</p>
+    <p><%=data.TotalConfirmed%></p>
+  </div>
+  <div class="data-item">
+    <p>Newly Confirmed</p>
+    <p><%=data.NewConfirmed%></p>
+  </div>
+  <div class="data-item">
+    <p>Total Deaths</p>
+    <p><%=data.TotalDeaths%></p>
+  </div>
+  <div class="data-item">
+    <p>New Deaths</p>
+    <p><%=data.NewDeaths%></p>
+  </div>
+  <div class="data-item">
+    <p>Total Recovered</p>
+    <p><%=data.TotalRecovered%></p>
+  </div>
+  <div class="data-item">
+    <p>Newly Recovered</p>
+    <p><%=data.NewRecovered%></p>
+  </div>
+</div>
+<div class="quote">
+  <p>"No amount of fees can compensate for the life you saved"</p>
+</div>
+<%-include("partials/footer")-%>

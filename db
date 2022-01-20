@@ -1,0 +1,1 @@
+db.products.update({name:"pencil"}, {$rename:{"reviews[0].name":"reviews[0].authorName"}});
